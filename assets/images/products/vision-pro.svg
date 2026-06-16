@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Spatial computing headset product render">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#14213d"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.45" stop-color="#8be9e0"/>
+      <stop offset="1" stop-color="#7067ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="900" height="700" rx="34" fill="url(#bg)"/>
+  <circle cx="180" cy="140" r="120" fill="#3dd6c6" opacity=".14"/>
+  <circle cx="760" cy="520" r="170" fill="#7c5cff" opacity=".16"/>
+  <g filter="url(#shadow)">
+    <path d="M158 326c0-90 70-154 164-154h256c94 0 164 64 164 154 0 94-72 168-164 168H322c-92 0-164-74-164-168z" fill="#e8edf5"/>
+    <path d="M211 321c0-61 47-105 110-105h258c63 0 110 44 110 105 0 65-49 116-110 116H321c-61 0-110-51-110-116z" fill="url(#visor)"/>
+    <path d="M246 302c20-34 56-52 104-52h202c48 0 84 18 104 52" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round" opacity=".68"/>
+    <path d="M158 330c-64 5-108 38-118 91 74 22 138 5 184-48" fill="none" stroke="#d8dee9" stroke-width="24" stroke-linecap="round"/>
+    <path d="M742 330c64 5 108 38 118 91-74 22-138 5-184-48" fill="none" stroke="#d8dee9" stroke-width="24" stroke-linecap="round"/>
+  </g>
+</svg>
